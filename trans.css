@@ -1,0 +1,44 @@
+.close{
+			display:inline-block;
+	color: white;
+	border:2px white solid;
+	border-radius: 10px;
+	padding: 5px;
+	text-decoration: none;
+font-weight: bold;
+text-decoration: none;
+width: 70px;
+height: 20px;
+text-align: center;
+transition:width .2s, height .2s,color 0.2s, background-color 0.2s,font-weight 0.1s;
+		}
+		.close:hover{
+			display:inline-block;
+font-weight: bold;
+text-decoration: underline;
+color:red;
+background-color: white;
+width: 75px;
+height: 25px;
+text-align: center;
+}
+
+#links{
+	display: inline-block;
+	border:3px yellow solid;
+	border-radius:7px;
+	border-right:none;
+	border-left:none;
+	padding: 2px;
+	letter-spacing: 3px;
+}
+#close{  
+	color: white;
+	text-decoration: none;
+}
+#close:hover{
+	text-decoration: underline;
+	font-weight: bold;
+}
+	
+		
